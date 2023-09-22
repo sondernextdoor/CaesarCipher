@@ -129,10 +129,10 @@ public:
 
 int main()
 {
-	auto cipher = new CaesarCipher("Julius Caesar");
+	auto cipher = new CaesarCipher( "Julius Caesar" );
 	
 	std::cout << cipher->get() << std::endl;
-	std::cout << cipher->decrypt(cipher->get() );
+	std::cout << cipher->decrypt( cipher->get() );
 
 	getchar();
 }
